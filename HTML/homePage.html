@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Attendance System</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/homePage.css" />
+
+    <script src="../JS/jquery-3.6.0.js"></script>
+    <script src="../JS/homepage.js" defer></script>
+    <script src="../JS/login.js" defer></script>
+    <script src="../JS/registration.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="backbox">
+            <div class="loginMsg">
+                <div class="textcontent">
+                    <p class="title">Don't have an account?</p>
+                    <p>Sign up now</p>
+                    <button id="switch1">Sign Up</button>
+                </div>
+            </div>
+            <div class="signupMsg visibility">
+                <div class="textcontent">
+                    <p class="title">Have an account?</p>
+                    <p>Log in to track your attendance.</p>
+                    <button id="switch2">LOG IN</button>
+                </div>
+            </div>
+        </div>
+        <!-- backbox -->
+
+        <div class="frontbox">
+            <div class="login">
+                <h2>LOG IN</h2>
+                <div class="inputbox">
+                    <input type="text" id="loginemail" placeholder="  EMAIL">
+                    <input type="password" id="password" placeholder="  PASSWORD">
+                    <p id="invalidlogin" style="display:none"></p>
+                </div>
+                <p>FORGET PASSWORD?</p>
+                <button id="login">LOG IN</button>
+            </div>
+
+            <div class="signup hide">
+                <h2>SIGN UP</h2>
+                <div class="inputbox">
+                    <input type="text" id="fisrtname" placeholder="  FIRSTNAME">
+                    <input type="text" id="secondname" placeholder="  SECONDNAME">
+                    <input type="text" id="email" placeholder="  EMAIL">
+                    <p id="emailerror" style="display:none">plz enter a valid email</p>
+                    <input type="date" id="bday" value="1996-02-05" max="2021-12-31">
+                </div>
+                <button id="signupbtn">SIGN UP</button>
+            </div>
+
+        </div>
+        <!-- frontbox -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    background-color: #A8A8A8;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 0;
+}
+#mainWrapper{
+    display:flex;
+    height: 100%;
+}
+#personalData {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding-top:10px;   
+    width: 30%;
+    background-color: #404040;
+    height: 92vh;
+    margin-right: 0px;
+    color:white;
+    text-shadow:2px 2px black;
+    text-transform: uppercase;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+#miandiv{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    flex-grow:1;
+    background-color: wheat;
+    height:92vh;
+    margin-left: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius:55%;
+    width:8rem;
+    height:8rem;
+    margin: 10px;
+}
+#attendance{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputbox {
+    margin-top: 30px;
+}
+.login{
+    padding: 20px;
+    text-align: center;
+}
+#attendance input {
+    display: block;
+    width: 80%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+#attendance p {
+    cursor: pointer;
+    color: #404040;
+    font-size: 15px;
+}
+label{
+    text-shadow: 1px 1px gray;
+}
+#attendance button{
+    background-color: #35B729;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
